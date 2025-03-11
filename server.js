@@ -4,7 +4,7 @@ import cors from '@fastify/cors';
 import { handler } from './build/handler.js';
 
 const fastify = Fastify();
-const port = 5173;
+const port = 3000;
 
 await fastify.register(cors, { 
   origin: true,
